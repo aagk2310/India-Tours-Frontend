@@ -1,0 +1,5 @@
+.dashcard {
+  display: flex;
+  justify-items: center;
+  padding: 2%;
+}

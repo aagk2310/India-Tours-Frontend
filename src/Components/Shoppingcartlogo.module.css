@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+}
+
+.container:hover {
+}
+.circleIcon {
+  position: absolute;
+  top: -0.3rem;
+  right: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: blueviolet;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

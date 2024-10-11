@@ -1,0 +1,24 @@
+.mainTagline {
+  font-weight: 400;
+  letter-spacing: 1.3rem;
+  text-transform: uppercase;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.secondaryTagline {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3%;
+  letter-spacing: 0.5rem;
+}

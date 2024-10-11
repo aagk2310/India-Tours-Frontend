@@ -1,0 +1,109 @@
+.main {
+  background-color: #f7f7f7;
+  /* padding: 4rem 3rem; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loginForm {
+  width: 55%;
+  height: 90%;
+  background-color: #fff;
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  padding: 1.5rem 2.5rem;
+  border-radius: 5px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.headingSecondary {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  color: rgb(133, 92, 255);
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  /* display: inline-block; */
+  text-align: center;
+}
+
+/* .maBtLg {
+  margin-bottom: 3.5rem !important;
+}
+.formGroup:not(:last-child) {
+  margin-bottom: 2.5rem;
+} */
+/* .formGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.formLabel {
+  /* display: block; */
+  font-size: 1rem;
+  font-weight: 500;
+  width: 40%;
+}
+
+.formInput {
+  display: block;
+  font-family: inherit;
+  font-size: 0.8rem;
+  height: 2rem;
+  width: 12rem;
+  color: inherit;
+  border: none;
+  background-color: #fff;
+  background-color: #f2f2f2;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* Pseudo element (a visible thing that isn't really in the DOM).
+      Also needs -ms- */
+}
+.formInput:focus {
+  outline: none;
+  border-bottom: 3px solid #55c57a;
+}
+.formInput:focus:invalid {
+  border-bottom: 3px solid #ff7730;
+}
+.formInput::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+.form {
+  display: inline-block;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20%;
+  row-gap: 4%;
+}
+.formGroup {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}

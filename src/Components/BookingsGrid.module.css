@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  align-items: center;
+  padding: 2%;
+  color: #000;
+}

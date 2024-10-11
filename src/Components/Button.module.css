@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: "#333";
+}
+.btnSmall,
+.btnLarge,
+.btnSmall:link,
+.btnLarge:link,
+.btnSmall:visited,
+.btnLarge:visited {
+  font-size: 1rem;
+  padding: 0.7rem 0.15rem;
+  border-radius: 0.5rem;
+  background-color: #855cff;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btnSmall {
+  width: 18%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  border-radius: 1.5rem;
+  color: #777;
+  background-color: #fff;
+  line-height: 1rem;
+  box-sizing: border-box;
+  transition: color 3s background-color 3s border 3s font-weight 3s ease;
+}
+
+.btnSmall:hover {
+  background-color: #413543;
+  color: #fff;
+  transform: scale(1.1);
+  border: 0.1rem solid white;
+  font-weight: 700;
+}
+.btnLarge:hover {
+  transform: scale(1.1); /* Enlarge by 10% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .btnSmall {
+    width: 40%;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+  }
+  .btnLarge {
+    /* width: 35%; */
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+  }
+}

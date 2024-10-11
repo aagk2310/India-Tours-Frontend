@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-app
+  labels:
+    app: react-app
+spec:
+  replicas: 1 # Number of replicas/pods
+  selector:
+    matchLabels:
+      app: react-app
+  template:
+    metadata:
+      labels:
+        app: react-app
+    spec:
+      containers:
+        - name: react-app
+          image: registry.digitalocean.com/toursregistry/react-image:latest # Replace with your image URL
+          imagePullPolicy: Always # Ensure the latest image is always pulled
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NODE_ENV
+              value: 'production'
+          resources:
+            requests:
+              memory: '256Mi' # Minimum amount of memory requested
+              cpu: '250m' # Minimum amount of CPU requested (250 millicores)
+            limits:
+              memory: '512Mi' # Maximum amount of memory allowed
+              cpu: '500m' # Maximum amount of CPU allowed (500 millicores)

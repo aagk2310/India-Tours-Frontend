@@ -1,0 +1,22 @@
+.nav_button,
+.nav_button_back {
+  width: 3.4rem;
+  height: 3.4rem;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 3;
+  top: 2rem;
+  right: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav_button:hover,
+.nav_button_back:hover {
+  transform: scale(1.1); /* Enlarge by 10% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
